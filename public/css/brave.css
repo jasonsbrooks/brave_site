@@ -1,0 +1,48 @@
+html {
+	width: 100%;
+	height: 100%;
+	background: url(../images/jason_bckg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/ls-Splash_vignette.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/ls-Splash_vignette.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+@font-face{
+	font-family: 'Source Sans Pro';
+	src: url('../static/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf');
+}
+
+#title {
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 60px;
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 50px;
+	color: white;
+	letter-spacing: .05em;
+	padding-bottom: 75px;
+}
+
+.center{
+	text-align: center;
+}
+
+.video-center{
+	margin: 0 auto;
+	width: 640px;
+	-moz-box-shadow: 0 0 19px #fff;
+	-webkit-box-shadow: 0 0 19px #fff;
+	box-shadow: 0 0 19px #fff;
+}
+
+#clock{
+	margin: 0 auto;
+	width: 500px;
+}
